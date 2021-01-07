@@ -77,7 +77,7 @@ const checkColor = note => {
 
 const deleteNote = id => {
     const noteToDelete = document.getElementById(id);
-    noteArea.removeChild(noteToDelete)
+    noteArea.removeChild(noteToDelete);
 }
 
 const deleteAllNotes = () => {
